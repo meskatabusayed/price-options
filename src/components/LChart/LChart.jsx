@@ -79,7 +79,7 @@ const LChart = () => {
       <LineChart width={500} height={400} data={subjectMarks}>
       
         <XAxis  dataKey="name"/>
-        <YAxis />
+        <YAxis/>
         <Line type="monotone" dataKey="math" stroke="#8884d8" />
         <Line type="monotone" dataKey="physics" stroke="red" />
         <Line type="monotone" dataKey="chemistry" stroke="green" />
